@@ -1,7 +1,7 @@
 function addElementToBeginningOfArray(array, element) {
  // add the element to the beginning of the array without mutating the array
- var newArray = [element, ...array];
- return newArray;
+   var newArray = [element, ...array];
+   return newArray;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
